@@ -1,8 +1,20 @@
 # Change Log - @azure/msal-react
 
-This log was last generated on Tue, 16 May 2023 22:51:25 GMT and should not be manually modified.
+This log was last generated on Thu, 08 Jun 2023 21:30:25 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 2.0.0
+
+Thu, 08 Jun 2023 21:30:25 GMT
+
+### Patches
+
+- Bump @azure/msal-browser to v3.0.0
+
+### Changes
+
+- Switch from enums to object literals to reduce the bundle size #6068 (kshabelko@microsoft.com)
 
 ## 2.0.0-alpha.2
 

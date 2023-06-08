@@ -2,6 +2,59 @@
   "name": "@azure/msal-browser",
   "entries": [
     {
+      "date": "Thu, 08 Jun 2023 21:30:24 GMT",
+      "tag": "@azure/msal-browser_v3.0.0",
+      "version": "3.0.0",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "0a3f082508e09a87bb155c25779d6d50ff48133e",
+            "comment": "Switch from enums to object literals to reduce the bundle size #6056"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "85383fb2f35d9c5e02e32d316a6d573ef09a22ed",
+            "comment": "Fix inProgress state reset when page restored from bfCache #6037"
+          },
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "c27d5727a8ab559fc2f1dc6f8ffa6ba6b79a5a8a",
+            "comment": "Remove legacy MsCrypto and MsrCrypto polyfill to reduce the bundle size #6086"
+          }
+        ],
+        "patch": [
+          {
+            "author": "lalimasharda@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "cad79d2a14f7c58819f5e77cddfd08766fa2abb3",
+            "comment": "Added authority check for native and silent flows #6002"
+          },
+          {
+            "author": "thomas.norling@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "2ccd5eb856e05545971f1762c117eedf87740549",
+            "comment": "Treat invalid_method as a fatal error for WAM #6094"
+          },
+          {
+            "author": "sameera.gajjarapu@microsoft.com",
+            "package": "@azure/msal-browser",
+            "commit": "0f84d651552b1fb7fef88a65b74bd743bd381f0f",
+            "comment": "Fix silent cache lookup bugs for native flows #6067"
+          },
+          {
+            "author": "beachball",
+            "package": "@azure/msal-browser",
+            "comment": "Bump @azure/msal-common to v14.0.0",
+            "commit": "907a54cd490c176da3f9a29984d24c7baa08c990"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 16 May 2023 22:51:19 GMT",
       "tag": "@azure/msal-browser_v3.0.0-alpha.2",
       "version": "3.0.0-alpha.2",

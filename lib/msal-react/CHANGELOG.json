@@ -2,6 +2,29 @@
   "name": "@azure/msal-react",
   "entries": [
     {
+      "date": "Thu, 08 Jun 2023 21:30:25 GMT",
+      "tag": "@azure/msal-react_v2.0.0",
+      "version": "2.0.0",
+      "comments": {
+        "prerelease": [
+          {
+            "author": "kshabelko@microsoft.com",
+            "package": "@azure/msal-react",
+            "commit": "42dd47713c8c8e362fa3cd54cbf7367140d9fb06",
+            "comment": "Switch from enums to object literals to reduce the bundle size #6068"
+          }
+        ],
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@azure/msal-react",
+            "comment": "Bump @azure/msal-browser to v3.0.0",
+            "commit": "907a54cd490c176da3f9a29984d24c7baa08c990"
+          }
+        ]
+      }
+    },
+    {
       "date": "Tue, 16 May 2023 22:51:25 GMT",
       "tag": "@azure/msal-react_v2.0.0-alpha.2",
       "version": "2.0.0-alpha.2",

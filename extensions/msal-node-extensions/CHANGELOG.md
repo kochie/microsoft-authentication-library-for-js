@@ -1,8 +1,22 @@
 # Change Log - @azure/msal-node-extensions
 
-This log was last generated on Mon, 01 May 2023 20:47:42 GMT and should not be manually modified.
+This log was last generated on Thu, 08 Jun 2023 21:30:24 GMT and should not be manually modified.
 
 <!-- Start content -->
+
+## 1.0.0-alpha.35
+
+Thu, 08 Jun 2023 21:30:24 GMT
+
+### Changes
+
+- Revert to common as a regular dependency #5985 (hemoral@microsoft.com)
+- Drop TSDX in favor of using rollup & jest directly #5893 (thomas.norling@microsoft.com)
+- enable strict type checking (thomas.norling@microsoft.com)
+- Bump typescript version to 4.9.5 #5750 (kshabelko@microsoft.com)
+- Switch from enums to object literals to reduce the bundle size #6068 (kshabelko@microsoft.com)
+- Fix response expiresOn property (thomas.norling@microsoft.com)
+- Bump @azure/msal-common to v14.0.0
 
 ## 1.0.0-alpha.34
 
